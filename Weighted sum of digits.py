@@ -1,7 +1,5 @@
 # Author : Matthew Palomar
 # 8/28/15
-# codeabbey.com Problem #13
-# http://www.codeabbey.com/index/task_view/weighted-sum-of-digits
 
 # Desc: Compute a weighted sum of digits
 # Input: n integers
@@ -25,7 +23,7 @@ def wsd(entryAmount):
 	totalEntries = entryAmount
 	currentIteration = 1
 	results = []
-	
+
 	print("\nData:\n%i Entries" % totalEntries)
 
 	while entryAmount >= 1:
@@ -34,7 +32,7 @@ def wsd(entryAmount):
 		currentIteration += 1
 
 		ints = map(int, data.split(" "))
-		
+
 		for i in ints:
 			current_int_length = len(str(i))
 			result = 0
@@ -47,7 +45,7 @@ def wsd(entryAmount):
 				current_int_length -=1
 
 			results.append(result)
-			
+
 
 	print("\nAnswer: ")
 	for x in results:

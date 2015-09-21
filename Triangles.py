@@ -1,10 +1,8 @@
 # Author : Matthew Palomar
 # 8/17/15
-# codeabbey.com Problem #9
-# http://www.codeabbey.com/index/task_view/triangles
 
 # Desc: Given n triplets of integers that represent the lengths of triangle legs,
-# determine if a triangle is possible 
+# determine if a triangle is possible
 # Input: n triplets of integers
 # Output: 1 (yes) or 0 (no)
 
@@ -24,7 +22,7 @@ def tri(length):
 	total = length
 	count = 1
 	result = []
-	
+
 	print("\nData:\n%i Entries" % total)
 
 	while length >= 1:
@@ -32,7 +30,7 @@ def tri(length):
 		length -= 1
 		count += 1
 		data = map(int, nextSet.split(" "))
-		
+
 		if data[0] + data[1] >= data[2]:
 			if data[1] + data[2] >= data[0]:
 				if data[0] + data[2] >= data[1]:

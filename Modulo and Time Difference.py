@@ -1,7 +1,5 @@
 # Author : Matthew Palomar
 # 8/27/15
-# codeabbey.com Problem #12
-# http://www.codeabbey.com/index/task_view/modulo-and-time-difference
 
 # Desc: Compute the difference between two time values (d, h, m, s)
 # Input: n pairs of time coordinates d1, h1, m1, s1, d2, h2, m2, s2
@@ -25,7 +23,7 @@ def timeDiff(entryAmount):
 	totalEntries = entryAmount
 	currentIteration = 1
 	results = []
-	
+
 	print("\nData:\n%i Entries" % totalEntries)
 
 	while entryAmount >= 1:

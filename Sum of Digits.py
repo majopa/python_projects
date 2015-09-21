@@ -1,7 +1,5 @@
 # Author : Matthew Palomar
 # 8/17/15
-# codeabbey.com Problem #11
-# http://www.codeabbey.com/index/task_view/sum-of-digits
 
 # Desc: Given triplets of integers, performs a calculation a returns a list of the results
 # Input: n triplets of integers
@@ -24,7 +22,7 @@ def sod(entryAmount):
 	totalEntries = entryAmount
 	currentIteration = 1
 	results = []
-	
+
 	print("\nData:\n%i Entries" % totalEntries)
 
 	while entryAmount >= 1:

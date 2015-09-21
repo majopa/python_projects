@@ -2,4 +2,4 @@
 
 https://github.com/majopa/python_projects
 
-Projects created by using python
+Various programs and projects I have created while learning python.

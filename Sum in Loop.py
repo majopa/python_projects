@@ -1,7 +1,5 @@
 # Author : Matthew Palomar
 # 8/10/15
-# codeabbey.com Problem #2
-# http://www.codeabbey.com/index/task_view/sum-in-loop
 
 # Desc: Sum a list of n integers
 # Input: n integers

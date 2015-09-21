@@ -1,7 +1,5 @@
 # Author : Matthew Palomar
 # 8/17/15
-# codeabbey.com Problem #8
-# http://www.codeabbey.com/index/task_view/arithmetic-progression
 
 # Desc: Calculates the sum of first members of arithmetic sequence
 #		A + (A + B) + (A + 2B) + (A + 3B) + ...
@@ -24,7 +22,7 @@ def seq(length):
 	total = length
 	count = 1
 	results = []
-	
+
 	print("\nData:\n%i Entries" % total)
 
 	while length >= 1:
@@ -32,7 +30,7 @@ def seq(length):
 		length -= 1
 		count += 1
 		data = map(int, data.split(" "))
-		
+
 		result = data[0]
 		while data[2] > 1:
 			result = result + data[0] + (data[2] - 1) * data[1]

@@ -1,7 +1,5 @@
 # Author : Matthew Palomar
 # 8/13/15
-# codeabbey.com Problem #6
-# http://www.codeabbey.com/index/task_view/rounding
 
 # Desc: Given n pairs of integers, divide each pair and round up at 0.5 and greater
 # Input: n pairs of integers
@@ -24,7 +22,7 @@ def div(length):
 	total = length
 	count = 1
 	result = []
-	
+
 	print("\nData:\n%i Pairs" % total)
 
 	while length >= 1:

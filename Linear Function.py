@@ -1,7 +1,5 @@
 # Author : Matthew Palomar
 # 8/17/15
-# codeabbey.com Problem #10
-# http://www.codeabbey.com/index/task_view/linear-function
 
 # Desc: Determine the slope and y-intercept of a Linear Function, given a pair of points
 #		y = mx + b
@@ -25,7 +23,7 @@ def lin(length):
 	total = length
 	count = 1
 	result = []
-	
+
 	print("\nData:\n%i Entries" % total)
 
 	while length >= 1:
@@ -33,10 +31,10 @@ def lin(length):
 		length -= 1
 		count += 1
 		data = map(int, nextSet.split(" "))
-		
+
 		a = int((data[3] - data[1])/(data[2] - data[0]))
 		b = int((data[1] - (a * data[0])))
-		result.append("(%i %i)" % (a, b))		
+		result.append("(%i %i)" % (a, b))
 
 	print("\nAnswer: ")
 	for x in result:

@@ -1,7 +1,5 @@
 # Author : Matthew Palomar
 # 8/11/15
-# codeabbey.com Problem #5
-# http://www.codeabbey.com/index/task_view/min-of-three
 
 # Desc: Of n triplets of integers, return the smallest of each triplet
 # Input: n triplets of integers separated by a space
@@ -24,7 +22,7 @@ def min(length):
 	total = length
 	count = 1
 	result = []
-	
+
 	print("\nData:\n%i Triplets" % total)
 
 	while length >= 1:

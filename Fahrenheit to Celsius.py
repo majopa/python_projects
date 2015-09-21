@@ -1,7 +1,5 @@
 # Author : Matthew Palomar
 # 8/13/15
-# codeabbey.com Problem #7
-# http://www.codeabbey.com/index/task_view/fahrenheit-celsius
 
 # Desc: Given n temperatures in Fahrenheit, convert to Celsius
 # Input: n integers (Fahrenheit Temps)
@@ -26,7 +24,7 @@ def ftc(length):
 	total = length
 	count = 1
 	results = []
-	
+
 	print("\nData:\n%i Entries" % total)
 
 	while length >= 1:

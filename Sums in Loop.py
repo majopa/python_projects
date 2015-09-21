@@ -1,7 +1,5 @@
 # Author : Matthew Palomar
 # 8/10/15
-# codeabbey.com Problem #3
-# http://www.codeabbey.com/index/task_view/sums-in-loop
 
 # Desc: Summation Loop for n pairs of integers
 # Input: n pairs integers separated by a space
@@ -22,7 +20,7 @@ def sums(entryAmount):
 	totalEntries = entryAmount
 	currentIteration = 1
 	result = []
-	
+
 	print("\nData:\n%i Entries" % totalEntries)
 
 	while entryAmount >= 1:

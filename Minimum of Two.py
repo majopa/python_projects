@@ -1,7 +1,5 @@
 # Author : Matthew Palomar
 # 8/11/15
-# codeabbey.com Problem #4
-# http://www.codeabbey.com/index/task_view/min-of-two
 
 # Desc: Of n pairs of integers, return the smallest of each pair
 # Input: n pairs of integers separated by a space
@@ -24,7 +22,7 @@ def min(length):
 	total = length
 	count = 1
 	result = []
-	
+
 	print("\nData:\n%i Pairs" % total)
 
 	while length >= 1:
